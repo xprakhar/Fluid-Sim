@@ -11,5 +11,7 @@ endif()
 
 project ("bitwave")
 
+include_directories("include")
 # Include sub-projects.
-add_subdirectory ("bitwave")
+add_subdirectory("external")
+add_subdirectory ("source")
