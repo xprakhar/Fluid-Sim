@@ -1,8 +1,6 @@
 #include <immintrin.h>
 #include <stdint.h>
 
-#include <DirectXMath.h>
-
 #if defined(_MSC_VER)
 #define CALL_CONV __vectorcall
 #else
